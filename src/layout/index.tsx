@@ -3,7 +3,6 @@ import { locales, setLang, t } from '@app/locales';
 import routes, { RouteConfig } from '@app/routes';
 import { Outlet, useNavigate } from '@moneko/solid';
 import styles from './index.less';
-import '@/global.less';
 
 type AllRoute = {
   path: string;
