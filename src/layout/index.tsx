@@ -1,5 +1,5 @@
 import { For } from 'solid-js';
-import { locales, setLang } from '@app/locales';
+import { locales, setLang, t } from '@app/locales';
 import routes, { RouteConfig } from '@app/routes';
 import { Outlet, useNavigate } from '@moneko/solid';
 import styles from './index.less';
@@ -33,7 +33,7 @@ function App() {
   return (
     <div>
       <p>
-        跳转路由:
+        {t.go}:
         <For each={all}>
           {(item) => {
             return (
@@ -49,7 +49,7 @@ function App() {
         </For>
       </p>
       <p>
-        切换语言:
+        {t.lang}:
         <For each={locales}>
           {(item) => {
             return (
@@ -65,7 +65,7 @@ function App() {
         </For>
       </p>
       <main class={styles.main}>
-        路由页面:
+        {t.outlet}:
         <Outlet />
       </main>
     </div>

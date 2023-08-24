@@ -16,6 +16,8 @@ const en: LocaleConfig = {
     hitokoto: 'Hitokoto',
     refetch: 'Refetch',
     outlet: 'Router Page View',
+    go: 'to page',
+    lang: 'switch lang'
   },
 };
 

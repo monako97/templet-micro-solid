@@ -16,6 +16,8 @@ const zhCN: LocaleConfig = {
     hitokoto: '一言',
     refetch: '重新请求',
     outlet: '路由页面视图',
+    go: '跳转路由',
+    lang: '切换语言'
   },
 };
 
