@@ -1,0 +1,16 @@
+{
+  "name": "templet-micro-solid",
+  "version": "0.0.1",
+  "description": "micro app",
+  "main": "lib/index.js",
+  "scripts": {},
+  "license": "MIT",
+  "devDependencies": {},
+  "files": [
+    "config",
+    "mock",
+    "src",
+    "typings",
+    "tsconfig.json"
+  ]
+}
