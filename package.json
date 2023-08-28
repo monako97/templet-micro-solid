@@ -1,6 +1,6 @@
 {
   "name": "templet-micro-solid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "micro app",
   "main": "lib/index.js",
   "scripts": {},
