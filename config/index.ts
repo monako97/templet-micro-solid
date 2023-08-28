@@ -1,6 +1,6 @@
 import type { ConfigType } from 'PackageNameByCore';
 
-const conf: Partial<ConfigType<'swc'>> = {
+const conf: Partial<ConfigType> = {
   importOnDemand: {
     lodash: {
       transform: '${member}',
