@@ -21,7 +21,6 @@ function transformRoutes(
       result.push(transformedRoute);
     }
   }
-
   return result;
 }
 
@@ -39,10 +38,11 @@ function App(p: RouteProps<string>) {
               <button
                 onClick={() => {
                   navigate(item.path);
-                  console.log(item);
                 }}
               >
-                {[item.path || '/', item.metadata?.title].filter(Boolean)}
+                {[item.path || '/', t[item.metadata?.title.toString() || '']]
+                  .filter(Boolean)
+                  .join(': ')}
               </button>
             );
           }}
