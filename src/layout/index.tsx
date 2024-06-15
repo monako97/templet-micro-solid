@@ -1,8 +1,8 @@
+import * as styles from './index.less';
 import { For } from 'solid-js';
 import { locales, setLang, t } from '@app/locales';
 import routes, { RouteConfig } from '@app/routes';
 import { type RouteProps, useNavigate } from '@moneko/solid';
-import * as styles from './index.less';
 
 // 纯演示用的无关代码: 将路由转换成按钮数据
 function transformRoutes(

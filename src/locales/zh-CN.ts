@@ -17,7 +17,7 @@ const zhCN: LocaleConfig = {
     refetch: '重新请求',
     outlet: '路由页面视图',
     go: '跳转路由',
-    lang: '切换语言'
+    lang: '切换语言',
   },
 };
 
